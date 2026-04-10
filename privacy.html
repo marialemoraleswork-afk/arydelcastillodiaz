@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy | Ary Del Castillo Diaz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --cream: #F5F0E8;
+      --dark: #1A1A1A;
+      --gold: #B8965A;
+      --white: #FFFFFF;
+      --gray: #6B6B6B;
+      --light-gray: #E8E4DC;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'DM Sans', sans-serif; background: var(--cream); color: var(--dark); }
+
+    nav {
+      padding: 20px 48px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: var(--dark);
+    }
+    .nav-logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.1rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      color: var(--white);
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+    .nav-links { display: flex; gap: 32px; list-style: none; }
+    .nav-links a {
+      font-size: 0.78rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.5);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover, .nav-links a.active { color: var(--gold); }
+
+    .policy-hero {
+      background: var(--dark);
+      padding: 80px 48px 60px;
+      text-align: center;
+    }
+    .policy-hero h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      font-weight: 300;
+      color: var(--white);
+      margin-bottom: 12px;
+    }
+    .policy-hero p {
+      font-size: 0.85rem;
+      color: rgba(255,255,255,0.4);
+      letter-spacing: 0.08em;
+    }
+
+    .policy-content {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 80px 48px;
+    }
+
+    .policy-intro {
+      font-size: 1rem;
+      line-height: 1.8;
+      color: var(--gray);
+      margin-bottom: 56px;
+      padding-bottom: 40px;
+      border-bottom: 1px solid var(--light-gray);
+    }
+
+    .policy-section { margin-bottom: 48px; }
+
+    .policy-section h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--dark);
+      margin-bottom: 16px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--light-gray);
+    }
+
+    .policy-section p {
+      font-size: 0.9rem;
+      line-height: 1.8;
+      color: var(--gray);
+      margin-bottom: 12px;
+    }
+
+    .policy-section ul {
+      list-style: none;
+      margin: 12px 0;
+    }
+    .policy-section ul li {
+      font-size: 0.9rem;
+      color: var(--gray);
+      line-height: 1.7;
+      padding: 6px 0 6px 20px;
+      position: relative;
+    }
+    .policy-section ul li::before {
+      content: '—';
+      position: absolute;
+      left: 0;
+      color: var(--gold);
+    }
+
+    .policy-section strong { color: var(--dark); font-weight: 500; }
+
+    .sms-box {
+      background: var(--white);
+      border: 1px solid rgba(184,150,90,0.3);
+      border-left: 3px solid var(--gold);
+      padding: 24px 28px;
+      margin: 20px 0;
+    }
+    .sms-box p {
+      font-size: 0.88rem;
+      color: var(--gray);
+      line-height: 1.7;
+      margin-bottom: 8px;
+    }
+    .sms-box p:last-child { margin-bottom: 0; }
+
+    footer {
+      background: var(--dark);
+      padding: 40px 48px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .footer-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1rem;
+      color: var(--white);
+    }
+    .footer-sub { font-size: 0.72rem; color: rgba(255,255,255,0.3); margin-top: 4px; }
+    .footer-links { display: flex; gap: 20px; }
+    .footer-links a {
+      font-size: 0.72rem;
+      color: rgba(255,255,255,0.4);
+      text-decoration: none;
+    }
+    .footer-links a:hover { color: var(--gold); }
+
+    @media (max-width: 700px) {
+      nav { padding: 16px 20px; }
+      .nav-links { display: none; }
+      .policy-hero { padding: 60px 24px 40px; }
+      .policy-content { padding: 48px 24px; }
+      footer { padding: 28px 20px; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">Ary Del Castillo Diaz</a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="privacy.html" class="active">Privacy Policy</a></li>
+  </ul>
+</nav>
+
+<div class="policy-hero">
+  <h1>Privacy Policy</h1>
+  <p>Last updated: April 2026</p>
+</div>
+
+<div class="policy-content">
+
+  <p class="policy-intro">
+    This website is operated by <strong>Ary Del Castillo Diaz</strong>, a licensed real estate agent based in Miami, FL. Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your information when you visit this website or submit your information through our contact forms.
+  </p>
+
+  <div class="policy-section">
+    <h2>Information We Collect</h2>
+    <p>When you submit the contact form on this website, we may collect the following personal information:</p>
+    <ul>
+      <li>Full name</li>
+      <li>Email address</li>
+      <li>Phone number</li>
+      <li>Any additional details you voluntarily provide in your message</li>
+    </ul>
+    <p>We may also collect limited technical data such as IP address and browser type to improve website performance.</p>
+  </div>
+
+  <div class="policy-section">
+    <h2>How We Use Your Information</h2>
+    <p>Your information is used solely to respond to your real estate inquiries and provide relevant services. Specifically, we use it to:</p>
+    <ul>
+      <li>Respond to your questions and consultation requests</li>
+      <li>Provide real estate services (buying, selling, investing)</li>
+      <li>Send relevant updates, listings, and market information</li>
+      <li>Schedule consultations, calls, or property showings</li>
+    </ul>
+    <p>We do <strong>not sell your personal information</strong> to third parties.</p>
+  </div>
+
+  <div class="policy-section">
+    <h2>SMS Communications</h2>
+    <div class="sms-box">
+      <p>By submitting your information through this website, you consent to receive calls, emails, and text messages from <strong>Ary Del Castillo Diaz</strong> regarding real estate services.</p>
+      <p><strong>Message frequency may vary.</strong> Message and data rates may apply.</p>
+      <p>You can opt out at any time:</p>
+      <p>· Reply <strong>STOP</strong> to unsubscribe from text messages.<br>
+         · Reply <strong>HELP</strong> for assistance.</p>
+      <p><strong>Carrier Disclaimer:</strong> Carriers are not liable for delayed or undelivered messages.</p>
+    </div>
+  </div>
+
+  <div class="policy-section">
+    <h2>Data Sharing</h2>
+    <p>We do not share, sell, or rent your personal information to third parties for marketing purposes.</p>
+    <p>Your information may only be shared with trusted service providers strictly necessary to provide real estate services — such as lenders, title companies, or transaction partners — and only as required to complete your transaction.</p>
+  </div>
+
+  <div class="policy-section">
+    <h2>Data Security</h2>
+    <p>We take reasonable measures to protect your personal information from unauthorized access, use, or disclosure. However, no method of transmission over the internet is 100% secure.</p>
+  </div>
+
+  <div class="policy-section">
+    <h2>Your Rights</h2>
+    <p>You have the right to:</p>
+    <ul>
+      <li>Access the personal data we hold about you</li>
+      <li>Request correction of inaccurate information</li>
+      <li>Request deletion of your personal data</li>
+    </ul>
+    <p>To exercise any of these rights, please contact us directly using the information below.</p>
+  </div>
+
+  <div class="policy-section">
+    <h2>Contact Information</h2>
+    <p>If you have any questions or concerns about this Privacy Policy, please contact:</p>
+    <p>
+      <strong>Ary Del Castillo Diaz</strong><br>
+      Email: arydelcastillo@luxeknows.com<br>
+      Phone: (786) 843-0010<br>
+      Location: Miami, FL
+    </p>
+  </div>
+
+  <div class="policy-section">
+    <h2>Updates to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. Any changes will be reflected on this page with an updated date at the top.</p>
+  </div>
+
+</div>
+
+<footer>
+  <div>
+    <div class="footer-name">Ary Del Castillo Diaz</div>
+    <div class="footer-sub">Licensed Real Estate Agent · Miami, FL</div>
+  </div>
+  <div class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="privacy.html">Privacy Policy</a>
+  </div>
+</footer>
+
+</body>
+</html>
